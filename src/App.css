@@ -1,6 +1,35 @@
 .App {
   text-align: center;
 }
+h1,p{
+  color: #fff;
+}
+
+.flex{
+  display: flex;
+}
+
+.container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  background-color: #282c34;
+  width: 400px;
+  height: 400px;
+  color: #fff;
+
+ 
+
+}
+.item{
+
+  display: block;
+  color: #fff;
+  font-size: 30px;
+
+}
 
 .App-logo {
   height: 40vmin;
